@@ -13,7 +13,7 @@ param = svm_parameter('-t 0 -c 4 -b 1')
 
 
 
-#test is really ok?
+#test is really ok???????????????????????
 m = svm_train(prob, param)
 svm_save_model('../data/heart_scale.svm.model', m)
 m = svm_load_model('../data/heart_scale.svm.model')
