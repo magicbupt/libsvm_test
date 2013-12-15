@@ -19,3 +19,4 @@ svm_save_model('../data/heart_scale.svm.model', m)
 m = svm_load_model('../data/heart_scale.svm.model')
 p_label, p_acc, p_val = svm_predict(y, x, m, '-b 0')
 ACC, MSE, SCC = evaluations(y, p_label)
+#就是测试一下
